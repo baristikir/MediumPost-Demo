@@ -13,6 +13,7 @@
 		3EA84A0124D9D54B0029A2DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EA84A0024D9D54B0029A2DE /* Assets.xcassets */; };
 		3EA84A0424D9D54B0029A2DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EA84A0324D9D54B0029A2DE /* Preview Assets.xcassets */; };
 		3EA84A0724D9D54B0029A2DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EA84A0524D9D54B0029A2DE /* LaunchScreen.storyboard */; };
+		3EA84A0F24DA017C0029A2DE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA84A0E24DA017C0029A2DE /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3EA84A0324D9D54B0029A2DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3EA84A0624D9D54B0029A2DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EA84A0824D9D54B0029A2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EA84A0E24DA017C0029A2DE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				3EA849FA24D9D5480029A2DE /* AppDelegate.swift */,
 				3EA849FC24D9D5480029A2DE /* SceneDelegate.swift */,
 				3EA849FE24D9D5480029A2DE /* ContentView.swift */,
+				3EA84A0E24DA017C0029A2DE /* HomeView.swift */,
 				3EA84A0024D9D54B0029A2DE /* Assets.xcassets */,
 				3EA84A0524D9D54B0029A2DE /* LaunchScreen.storyboard */,
 				3EA84A0824D9D54B0029A2DE /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EA849FB24D9D5480029A2DE /* AppDelegate.swift in Sources */,
+				3EA84A0F24DA017C0029A2DE /* HomeView.swift in Sources */,
 				3EA849FD24D9D5480029A2DE /* SceneDelegate.swift in Sources */,
 				3EA849FF24D9D5480029A2DE /* ContentView.swift in Sources */,
 			);

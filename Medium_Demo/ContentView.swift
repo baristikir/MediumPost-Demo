@@ -10,8 +10,15 @@ import SwiftUI
 import Combine
 
 struct ContentView: View {
+    
+    @EnvironmentObject var manager: HttpAuth
+    
     var body: some View{
-        SignInView()
+        if !self.manager.authenticated {
+            return AnyView(SignInView())
+        } else {
+            return AnyView(HomeView())
+        }
     }
 }
 
@@ -215,7 +222,7 @@ class HttpAuth: ObservableObject{
     
     //Method for SignUp with transactions to the RESTful Server - API
     func signUpHelper(username: String, password: String, confirmPassword: String){
-        guard let signUpUrl = URL(string: "http://localhost:5000/api/register") else { return }
+        guard let signUpUrl = URL(string: "http://localhost:5000/api/accounts") else { return }
         
         let body: [String: String] = ["Email": username, "Password": password, "ConfirmPassword": confirmPassword]
         let finalbody = try! JSONSerialization.data(withJSONObject: body)
